@@ -1,0 +1,12 @@
+main {
+  display: inline-flex;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 282px 282px 282px 282px;
+  grid-template-rows: 1fr 1fr 1fr;
+  /* grid-template-rows: 200px 200px 200px; */
+  gap: 14px;
+  margin: 24px 24px auto 28px;
+}

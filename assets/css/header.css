@@ -1,0 +1,72 @@
+header {
+  display: flex;
+  height: 3.5rem;
+  padding: 1rem 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
+.esquerda {
+  display: inline-flex;
+  align-items: center;
+  gap: 2rem;
+  height: 2.5rem;
+}
+
+.centro {
+  display: inline-flex;
+  align-items: center;
+  height: 2.5rem;
+}
+
+.direita {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.4rem;
+  height: 2.5rem;
+}
+
+.logo {
+  width: 5.625rem;
+  height: 1.25rem;
+}
+
+.search-bar {
+  width: 25rem;
+  height: 2.5rem;
+  padding: 0 1rem;
+  border: 1px solid #cccccc;
+  background: #ffffff;
+  border-radius: 40px 0 0 40px;
+}
+
+.search-bar:focus-visible {
+  outline: 1px solid blue;
+}
+
+.button-lupa {
+  width: 4rem;
+  height: 2.5rem;
+  border: 1px solid #cccccc;
+  background: #f8f8f8;
+  border-radius: 0 40px 40px 0;
+}
+
+.button-lupa:hover {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  background: #eeeeee;
+  cursor: pointer;
+}
+
+.lupa {
+  justify-content: center;
+  align-items: center;
+}
+
+.user-image {
+  width: 2.125rem;
+  height: 2.125rem;
+  border-radius: 50%;
+}

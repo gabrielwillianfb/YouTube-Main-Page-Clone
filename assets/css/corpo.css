@@ -1,0 +1,52 @@
+article {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+  width: 17.625rem;
+  height: 16.375rem;
+  border-radius: 4px;
+}
+
+.thumbnail {
+  width: 15.625rem;
+  height: 8.768rem;
+}
+
+.infos-channel {
+  display: flex;
+  padding: 0px;
+  gap: 10px;
+  width: 15.563rem;
+  height: 4.625rem;
+}
+
+.logo-canal {
+  max-width: 2.625rem;
+  height: 2.625rem;
+}
+
+.titulo-desc {
+  display: flex;
+  flex-direction: column;
+  width: 12.313rem;
+  height: 4.625rem;
+  justify-content: space-between;
+}
+
+.titulo {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16.41px;
+}
+
+.desc {
+  color: #515151;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.06px;
+}
